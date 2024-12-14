@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/admClinicas/static/css/main.da37bad7.css",
+    "main.js": "/admClinicas/static/js/main.e1719eed.js",
+    "static/js/453.2bf4a912.chunk.js": "/admClinicas/static/js/453.2bf4a912.chunk.js",
+    "index.html": "/admClinicas/index.html",
+    "main.da37bad7.css.map": "/admClinicas/static/css/main.da37bad7.css.map",
+    "main.e1719eed.js.map": "/admClinicas/static/js/main.e1719eed.js.map",
+    "453.2bf4a912.chunk.js.map": "/admClinicas/static/js/453.2bf4a912.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da37bad7.css",
+    "static/js/main.e1719eed.js"
+  ]
+}
