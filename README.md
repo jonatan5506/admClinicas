@@ -29,3 +29,28 @@ Projeto abre em [http://localhost:3000]
 ### `yarn mock`
 
 Projeto Banco de dados em [http://localhost:3006]
+
+
+//Usar o Populate paraacessar as referências do médico;
+// import { Consultas } from "./Consultas.js";
+
+// // Exemplo de função para buscar as consultas e acessar as propriedades do médico
+// const buscarConsultasComMedico = async () => {
+//   try {
+//     const consultasComMedico = await Consultas.find()
+//       .populate({
+//         path: "medico",  // Preenche os dados do médico
+//         select: "nome especialidade imagem"  // Seleciona os campos desejados do médico
+//       });
+
+//     consultasComMedico.forEach(consulta => {
+//       console.log(`Consulta para ${consulta.data} às ${consulta.horario}`);
+//       console.log(`Médico: ${consulta.medico.nome}`);
+//       console.log(`Especialidade: ${consulta.medico.especialidade}`);
+//     });
+//   } catch (error) {
+//     console.error("Erro ao buscar consultas:", error);
+//   }
+// };
+
+// buscarConsultasComMedico();
