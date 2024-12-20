@@ -10,8 +10,7 @@ export function useFetch<T>({ url }: IUseFecth) {
 
   useEffect(
     () => {
-      //fetch(`http://localhost:3006/${url}`)
-      fetch(`${process.env.REACT_APP_URL_PROD}${url}`)
+      fetch(`https://json-server-chi.vercel.app/${url}`)
         .then(res => res.json())
         .then(dados => setDados(dados))
         .catch(erro => setErro(erro));
